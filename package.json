@@ -1,10 +1,10 @@
 {
   "name": "test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "std-version": "npm run standard-version -m \"release \" "
+    "std-version": "standard-version -m \"release \" "
   },
   "repository": {
     "type": "git",
