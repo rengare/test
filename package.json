@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "std-version": "standard-version -m \"chore(release): version %s build ${TRAVIS_BUILD_NUMBER}     [ci skip]\""      
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rengare/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rengare/test/issues"
+  },
+  "homepage": "https://github.com/rengare/test#readme",
+  "devDependencies": {
+    "standard-version": "^8.0.2"
+  }
+}
