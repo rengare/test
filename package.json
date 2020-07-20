@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "std-version": "standard-version -m \"chore(release): version %s build ${TRAVIS_BUILD_NUMBER}     [ci skip]\""
+    "std-version": "npm run standard-version -m \"release \" "
   },
   "repository": {
     "type": "git",
