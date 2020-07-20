@@ -1,4 +1,4 @@
 language: node_js
 script:
   - npm run std-version
-  - git push --follow-tags origin master && npm publish 
+    # - git push --follow-tags origin master && npm publish 
